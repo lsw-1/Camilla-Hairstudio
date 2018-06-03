@@ -1,0 +1,29 @@
+#header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(112, 222, 195, 0.8) 0%, rgba(187, 112, 215, 0.8) 100%);
+}
+
+#header img {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+}
+
+.title {
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+line-height: 122%;
+font-size: 10em;
+text-align: center;
+letter-spacing: 0.4em;
+text-transform: uppercase;
+color: #FFFFFF;
+    position: absolute;
+    top: 20%;
+    justify-self: center;
+}
