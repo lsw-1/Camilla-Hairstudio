@@ -24,9 +24,7 @@ const Layout = ({ children, data }) => (
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-
-    <Header />
-    <div style={{}}>{children()}</div>
+    <div>{children()}</div>
   </div>
 )
 
