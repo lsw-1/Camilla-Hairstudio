@@ -1,22 +1,52 @@
 #page-1 {
-    display: grid;
-    grid-auto-columns: 1fr;
-    justify-content: center;
-    
-    justify-items: center;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 1vw;
 }
 
-.box-intro {
-    width: 50%;
-    margin: 5%;
-    padding: 50px;
-    display: grid;
-    grid-auto-columns: 1fr;
-    text-align: center;    
-background: #FFFFFF;
-border: 1px solid #C9C9C9;
-box-sizing: border-box;
-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
-border-radius: 5px;
-color: #4F4F4F;
+.nav {
+  height: 10vh;
+  background: rgba(112, 222, 195, 0.85);
+  display: grid;
+  color: #fff;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.nav h2 {
+  font-size: 5vw;
+  margin: 0;
+}
+
+#page-1 .priser {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.priser div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priser h4 {
+  font-size: 18px;
+}
+.kontakt {
+  text-align: center;
+  height: 80vh;
+  background: #4f4f4f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kontakt .wrapper {
+  margin: 5vh 0;
+  width: 90%;
+}
+.kontakt .wrapper h4 {
+  margin: 5vh 0;
+}
+
+@media only screen and (min-width: 780px) {
 }

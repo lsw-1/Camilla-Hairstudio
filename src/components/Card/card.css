@@ -1,0 +1,34 @@
+.box-intro {
+  display: grid;
+  margin: 5%;
+  padding: 5vw;
+  grid-template-rows: 1fr 4fr;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: #4f4f4f;
+}
+.box-intro p {
+  justify-self: center;
+  line-height: 150%;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.32em;
+}
+.header {
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #4f4f4f;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #6f6f6f;
+  max-height: 150px;
+  padding: 3vh;
+}
+@media only screen and (min-width: 780px) {
+}

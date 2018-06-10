@@ -15,17 +15,19 @@ const Layout = ({ children, data }) => (
       ]}
     />
 
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
 
     <Header />
-    <div
-      style={{
-        margin: '0 5%'
-      }}
-    >
-      {children()}
-    </div>
-  </div >
+    <div style={{}}>{children()}</div>
+  </div>
 )
 
 Layout.propTypes = {
@@ -36,10 +38,10 @@ export default Layout
 
 export const query = graphql`
   query SiteTitleQuery {
-      site {
-    siteMetadata {
-      title
-    }
+    site {
+      siteMetadata {
+        title
+      }
     }
   }
 `
