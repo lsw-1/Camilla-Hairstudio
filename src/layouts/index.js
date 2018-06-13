@@ -10,19 +10,9 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Erfaren hårsalong i Tyresö' },
+        { name: 'keywords', content: 'hårsalong, Camilla' },
       ]}
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Cinzel"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
     />
     <div>{children()}</div>
   </div>
